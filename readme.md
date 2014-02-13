@@ -1,4 +1,4 @@
-#hashsub v0.1.1
+#hashsub v0.1.2
 An gem that extends the ruby `String` class with the methods `hashsub` and `hashsub!`. `hashsub` to implement global subsitution in strings using a hash in the format `/regex/=> "substitution"`  
 
 
@@ -53,10 +53,10 @@ manipulator("Four score and eight years to go.") #=> "4 scoreoreore and 8 years 
 ```
 $> gem build hashsub/hashsub.gemspec
 	...
-	File: hashsub-0.1.0.gemspec
+	File: hashsub-0.1.2.gemspec
 ```
 
-`$> gem install hashsub/hashsub-0.1.0.gemspec`  
+`$> gem install hashsub/hashsub-0.1.2.gemspec`  
 
 
 
